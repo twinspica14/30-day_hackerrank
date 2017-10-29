@@ -30,3 +30,5 @@
             Regular Expression:
                   .sub -> subsitute particular words in the input sentences
                   re.sub(r'[^a-zA-Z]+$',' ', line) where [charcters to be removed] ^ means not
+                  r -> replace, 
+                  re.sub('charcter',' ',line) it removes
