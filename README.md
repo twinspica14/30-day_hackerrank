@@ -1,5 +1,5 @@
 # Python
-functiontools -> partials,rduce,map,filter etc.
+      functiontools -> partials,rduce,map,filter etc.
       
       partials-> it creates a function to call a function with few arg 
       
@@ -12,8 +12,10 @@ functiontools -> partials,rduce,map,filter etc.
             list_name = list(map(lambda x: x*2,[]))
             lambda is keyword
       
-      reduce-> Reduce is a really useful function for performing some computation on a list and returning the result. It applies a rolling                computation to sequential pairs of values in a list. For example, if you wanted to compute the product of a list of integers.
-               So the normal way you might go about doing this task in python is using a basic for loop:
+      reduce-> Reduce is a really useful function for performing some computation on a list and returning the result.
+            It applies a rolling computation to sequential pairs of values in a list.
+            For example, if you wanted to compute the product of a list of integers.
+            So the normal way you might go about doing this task in python is using a basic for loop:
                
                product = 1
                list = [1, 2, 3, 4]
@@ -24,3 +26,7 @@ functiontools -> partials,rduce,map,filter etc.
                
                from functools import reduce
                product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
+      re-> 
+            Regular Expression:
+                  .sub -> subsitute particular words in the input sentences
+                  re.sub(r'[^a-zA-Z]+$',' ', line) where [charcters to be removed] ^ means not
