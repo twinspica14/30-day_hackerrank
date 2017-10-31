@@ -1,1 +1,30 @@
 # C++
+
+To Take a sentence as input we use 
+      string e;
+      cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+      getline(std::cin, e);
+      
+ To make precision of zero in c++
+      #include<iomanip>
+      cout<<setprecision(1)<<fixed<<d + w<<endl;  where 1 is one digit precision
+  
+ To cast Type we use
+      (static_cast<double>(variable_))
+ 
+ To round to nearest integer we use <math.h>
+      round(variable) function
+      
+ To clear string variable buffer
+      String.clear();
+      
+ To get length of an array or string use size() instead of length() method
+ 
+ Vectors
+      vector<type> var
+      var[i] can also be used to access, with .at(i)
+      see c++ reference
+Map
+    map<type,type>var_
+    var_["key"] = value
+    var_.count("key") // counts number of times it's occurenece
