@@ -33,3 +33,7 @@ Bitset operation:
       std::string binary = std::bitset<B>(N).to_string();
       B is base, 10 for decimal
       N is number
+
+MutiDimensional Vectors
+      vector< vector<type> > name
+
