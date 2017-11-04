@@ -9,10 +9,12 @@ int main() {
 	int k=0;
 	std::cin >> a;
 
-	std::string binary = std::bitset<10>(a).to_string(); //to binary, bitset(x) is very important, as it's function
-	
-	
-	for (int i = 0; i < binary.size(); i++) {
+	std::string binary = std::bitset<32>(a).to_string(); //to binary, bitset(x) is very important, as it's function
+	//std::cout << binary << std::endl;
+	//std::cout << binary.size() << std::endl;
+	std::string lol = std::bitset<100>(0).to_string();
+	binary = binary + lol;
+	for (int i = 0; i < 100; i++) {
 		if (binary.at(i) == '1') {
 			k = k + 1;
 			//std::cout << "True" << std::endl;
@@ -27,7 +29,9 @@ int main() {
 
 	}
 	
-		std::cout << *j.rbegin() << std::endl;
+	if (!j.empty())
+		std::cout<<*j.rbegin();
+	
 
 	system("pause");
 }
