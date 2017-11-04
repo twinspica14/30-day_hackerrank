@@ -28,3 +28,8 @@ Map
     map<type,type>var_
     var_["key"] = value
     var_.count("key") // counts number of times it's occurenece
+Bitset operation:
+      include string
+      std::string binary = std::bitset<B>(N).to_string();
+      B is base, 10 for decimal
+      N is number
