@@ -37,3 +37,10 @@ Bitset operation:
 MutiDimensional Vectors
       vector< vector<type> > name
 
+Using Iterator:
+      vector<int>::iterator it;
+		int s = 0;
+		for (it = testScores.begin(); it != testScores.end(); it++) {
+			s = *it +s;
+                  
+           
